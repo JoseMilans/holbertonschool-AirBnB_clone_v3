@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Place view module"""
-
+"""Place view module For Airbnb v3"""
 from flask import jsonify, abort, request
 from api.v1.views import app_views
 from models import storage, City, Place, User
